@@ -90,7 +90,7 @@ body {
 }
 
 .category {
-    background-color: white;
+    background-color: rgb(6, 6, 6);
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 1.5em;
