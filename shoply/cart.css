@@ -44,7 +44,7 @@ h1, h2 {
 }
 
 .navbar .nav-links li a {
-    color: white;
+    color: rgb(204, 9, 9);
     text-decoration: none;
     font-size: 1rem;
     transition: color 0.3s;

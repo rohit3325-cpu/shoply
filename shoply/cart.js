@@ -27,6 +27,15 @@ function addToCart(productName) {
         case 'Footwear':
             price = 1999;
             break;
+        case 'Bags':
+            price = 1300;
+            break;
+        case 'Watches':
+            price = 100999;
+            break;
+        case 'Sunglasses':
+            price = 899;
+            break;    
         default:
             console.log('Product not found');
             return;
