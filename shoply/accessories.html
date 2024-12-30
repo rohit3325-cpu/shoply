@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessories - Shoply</title>
+    <link rel="stylesheet" href="accessories.css">
+    <script src="cart.js" defer></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">SHOPLY</div>
+        <ul class="nav-links">
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="men.html">Men</a></li>
+            <li><a href="women.html">Women</a></li>
+            <li><a href="accessories.html">Accessories</a></li>
+            <li><a href="customer_serfvice.html">Customer Service</a></li>
+            
+            
+        </ul>
+        <a href="cart.html"><button class="shop-button">Cart</button></a>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Accessories Collection</h1>
+            <p>Complete your look with our stylish accessories.</p>
+            <button class="shop-now">Shop Now</button>
+        </div>
+    </header>
+
+    <!-- Accessories Section -->
+    <section id="accessories" class="accessories-section">
+        <h2>Accessories Collection</h2>
+        <p>Explore our exclusive range of accessories to enhance your style.</p>
+
+        <div class="categories">
+            <div class="category">
+                <img src="images/bags.jpg" alt="Bags">
+                <h3>Bags</h3>
+                <p>Chic and functional bags for every occasion.</p>
+                <button class="add-to-cart" onclick="addToCart('Bags')">Add to Cart</button>
+            </div>
+            <div class="category">
+                <img src="images/watches.jpg" alt="Watches">
+                <h3>Watches</h3>
+                <p>Timeless designs to elevate your style.</p>
+                <button class="add-to-cart" onclick="addToCart('Watches')">Add to Cart</button>
+            </div>
+            <div class="category">
+                <img src="images/sunglasses.jpg" alt="Sunglasses">
+                <h3>Sunglasses</h3>
+                <p>Trendy shades for sunny days.</p>
+                <button class="add-to-cart" onclick="addToCart('Sunglasses')">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">Customer Service</a>
+            <a href="#">Terms</a>
+            
+        </div>
+    </footer>
+</body>
+</html>

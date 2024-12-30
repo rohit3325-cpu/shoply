@@ -1,0 +1,215 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0c0b0b;
+    color: #0b0b0b;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #050505;
+    padding: 1em 2em;
+    color: rgb(245, 7, 7);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+.nav-links a {
+    color: rgb(249, 5, 5);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffd700;
+}
+
+.shop-button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.shop-button:hover {
+    background-color: #ffcc00;
+}
+
+/* Hero Section */
+.hero {
+    background: url('backgroundimage.jpg') no-repeat center center/cover;
+    color: rgb(14, 14, 14);
+    text-align: center;
+    padding: 4em 2em;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin: 0.5em 0;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin: 0.5em 0 1.5em;
+}
+
+/* Contact Information Section */
+.contact-info {
+    padding: 4em 2em;
+    background-color: #0c0c0c;
+    text-align: center;
+    color: #f9f9f9;
+}
+
+.contact-info h2 {
+    font-size: 2.5em;
+    margin-bottom: 1.5em;
+}
+
+.contact-info p {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    flex-wrap: wrap;
+}
+
+.contact-details div {
+    text-align: center;
+}
+
+.contact-details h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.contact-details p {
+    font-size: 1.1em;
+}
+
+/* FAQ Section */
+.faq {
+    padding: 4em 2em;
+    background-color: #090909;
+    color: #f9f9f9;
+}
+
+.faq h2 {
+    font-size: 2.5em;
+    margin-bottom: 1.5em;
+}
+
+.faq-item {
+    margin-bottom: 1.5em;
+}
+
+.faq-item h3 {
+    font-size: 1.8em;
+}
+
+.faq-item p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Support Form Section */
+.support-form {
+    padding: 4em 2em;
+    background-color: #070707;
+    text-align: center;
+    color: #ddd;
+}
+
+.support-form h2 {
+    font-size: 2.5em;
+    margin-bottom: 1.5em;
+}
+
+.support-form p {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+
+.support-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2em;
+}
+
+.support-form label {
+    font-size: 1.2em;
+    text-align: left;
+    width: 300px;
+    padding-left: 20px;
+}
+
+.support-form input,
+.support-form textarea {
+    width: 300px;
+    padding: 0.8em;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 0.5em;
+}
+
+.support-form textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.submit-button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 0.8em 1.5em;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #ffcc00;
+}
+
+/* Footer */
+footer {
+    background-color: #ac0808;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}

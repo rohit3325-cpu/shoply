@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoply - Clothing Store</title>
+    <link rel="stylesheet" href="women.css">
+    <script src="cart.js" defer></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">SHOPLY</div>
+        <ul class="nav-links">
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="men.html">Men</a></li>
+            <li><a href="women.html">Women</a></li>
+            <li><a href="accessories.html">Accessories</a></li>
+            <li><a href="customer_service.html">Customer Service</a></li>
+            
+        </ul>
+        <a href="cart.html"><button  class="shop-button">Shop Now</button></a>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Your Style, Our Mission</h1>
+            <p>Discover the latest fashion trends with us.</p>
+            <button class="shop-now">Shop Now</button>
+        </div>
+    </header>
+
+    <!-- Women Section -->
+    <section id="women" class="women-section">
+        <h1>Women’s Collection</h1>
+        <p>Explore our exclusive range of women’s clothing and accessories.</p>
+
+        <div class="categories">
+            <div class="category">
+                <img src="images/dresses.jpg" alt="Dresses">
+                <h3>Dresses</h3>
+                <p>Elegant and stylish dresses for every occasion.</p>
+                
+                <button class="add-to-cart" onclick="addToCart('Dresses')">Add to Cart</button>
+            </div>
+            <div class="category">
+                <img src="images/tops.jpg" alt="Tops">
+                <h3>Tops</h3>
+                <p>Trendy tops that pair perfectly with any look.</p>
+                <button class="add-to-cart" onclick="addToCart('Tops')">Add to Cart</button>
+            </div>
+            <div class="category">
+                <img src="images/footwear.jpg" alt="Footwear">
+                <h3>Footwear</h3>
+                <p>Comfortable and stylish shoes for every outfit.</p>
+                <button class="add-to-cart" onclick="addToCart('Footwear')">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-links">
+            <a href="aboutus.html">About Us</a>
+            <a href="customer.html">Customer Service</a>
+            <a href="terms.html">Terms</a>
+           
+        </div>
+    </footer>
+</body>
+</html>
