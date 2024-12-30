@@ -52,7 +52,7 @@ body {
 
  .hero {
     position: relative;
-    background: url('background\ image.jpg') center/cover no-repeat;
+    background: url('backgroundimage.jpg') center/cover no-repeat;
     height: 50vh; /* Full viewport height */
     color: rgb(7, 7, 7);
     display: flex;
