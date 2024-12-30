@@ -24,7 +24,7 @@
    <!-- Hero Section -->
      <header class="hero">
         <div class="hero-content">
-            <h1>Your Style, Our Mission</h1>
+            <h1>Shop Smart, Shop <span id="element"></span></h1>
             <p>Discover the latest fashion trends with us.</p>
            
             </a><button class="shop-now">Shop Now</button>
@@ -87,5 +87,12 @@
             <!-- Add social media icons if needed -->
         </div>
     </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Hassle-Free.', 'Everywhere.','Affordable.'],
+            typeSpeed: 50,
+        });
+    </script>
 </body>
 </html>
